@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.form{
+    margin: 50px;
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    padding:15px;
+    background: linear-gradient(to bottom,#d66dbf,#80afc4,#44dee9
+    );
+    border-radius: 10px;
+    
+}
+#heading{
+    font-size:20px;+
+}
+#aa{
+    width: 98%;
+}
+#bb{
+    width:47.5%;
+}
+#bb2{
+    width: 47.5%;
+}
+#cc{
+    width:47.5%;
+}
+#dd{
+    width: 47.5%;
+}
+#ee{
+    width:98%;
+}
+#ff{
+    width:98%;
+}
+#gg{
+    width:98%;
+}
+#hh{
+    margin-left:20px ;
+}
