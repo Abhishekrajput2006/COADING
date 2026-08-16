@@ -1,45 +1,274 @@
-body{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.form{
-    margin: 50px;
-    border: 2px solid black;
-    height: 500px;
-    width: 400px;
-    padding:15px;
-    background: linear-gradient(to bottom,#d66dbf,#80afc4,#44dee9
-    );
-    border-radius: 10px;
-    
+
+body,html {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color:#1a0706;
+  overflow-x: hidden;
 }
-#heading{
-    font-size:20px;+
+.header {
+  height: 74px;
+  width: 100%;
+  background-color: rgba(61, 61, 61, 0.421);
+  display: flex;
+  align-items: center;
+  box-shadow:
+    rgb(60, 64, 67) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
 }
-#aa{
-    width: 98%;
+.logo {
+  color: white;
+  height: 35px;
+  width: 60px;
+  font-size: 25px;
+  margin-left: 20px;
 }
-#bb{
-    width:47.5%;
+.folio {
+  color: red;
 }
-#bb2{
-    width: 47.5%;
+.navbar {
+  display: flex;
+  margin-left: 400px;
+  color: white;
+  height: 20px;
+  align-items: center ;
 }
-#cc{
-    width:47.5%;
+.navbar a {
+  color: #d6e0e3e7;
+  text-decoration: none;
+  padding: 20px;
 }
-#dd{
-    width: 47.5%;
+.navbar a:hover{
+color:red;
+border:2px solid red;
+border-top:none ;
+border-left:none ;
+border-right:none ;
 }
-#ee{
-    width:98%;
+
+.btn {
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+  height: 40px;
+  width: 100px;
+  margin-left: 380px;
+  border-style: none;
 }
-#ff{
-    width:98%;
+.h2 {
+  font-size: 50px;
+  color: white;
+  margin-top: 120px;
+  margin-left: 400px;
+  margin-bottom: 70px;
 }
-#gg{
-    width:98%;
+
+
+/* Card secion  */
+.section3 {
+  padding: 20px 10%;
+  background-color: #0F0202;
 }
-#hh{
-    margin-left:20px ;
+
+.h2 {
+  color: white;
+  margin-left:350px;
+
+  font-size: 36px;
+  margin-bottom: 80px;
+}
+
+
+/* CARDS */
+
+.CARDS {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 45px;
+
+  max-width: 1300px;
+  margin: auto;
+}
+
+
+/* SINGLE CARD */
+
+.carda{
+  background: white;
+
+  min-height: 275px;
+
+  border-radius: 10px;
+
+  text-align: center;
+
+  padding: 60px 35px 35px;
+
+  position: relative;
+}
+.carda:hover{
+  transform: translate(0cm,0.3cm);
+  transition: 0.5s;
+}
+
+
+/* TOP CIRCLE */
+
+.topa {
+  width: 70px;
+  height: 70px;
+
+  background: white;
+
+  border-radius: 50%;
+
+  position: absolute;
+
+  top: -32px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* CARD TITLE */
+
+.carda h3 {
+  font-size: 22px;
+
+  margin-bottom: 15px;
+
+  color: #111;
+}
+
+
+/* CARD TEXT */
+
+.carda p {
+  color: #666;
+
+  font-size: 15px;
+
+  line-height: 1.6;
+
+  margin-bottom: 25px;
+}
+
+
+/* CARD BUTTON */
+
+.btnn {
+  background: #ff3030;
+
+  color: white;
+
+  border: none;
+
+  padding: 13px 28px;
+
+  border-radius: 30px;
+
+  font-size: 14px;
+
+  cursor: pointer;
+}
+
+.btnn:hover {
+  background: #d90000;
+}
+
+.card2{
+  margin-top:  60px ;
+}
+
+/* tools  icon conatiner */
+
+.section2{
+  background-color: #111111;
+  height:686px;
+  width: 1521px;
+}
+.text p{
+  color:red;
+  word-spacing:5px;
+  
+}
+.text{
+  padding-top:120px;
+  text-align: center;
+  font-size: 22px;
+}
+.text h2{
+  color: white;
+  font-size:60px;
+  margin-top: 30px;
+}
+.icons{
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+  
+  
+}
+.icona{
+  background-color: white;
+  height: 130px;
+  width: 120px;
+  margin-top: 80px;
+  border-radius:15px ;
+  padding-top:33px ;
+  text-align: center;
+}
+.icona img{
+  height: 38px;
+  width: 38px;
+}
+.textbold{
+  font-weight:bolder;
+}
+
+.iconsb{
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom:80px;
+  
+  
+}
+.iconb{
+  background-color: white;
+  height: 130px;
+  width: 120px;
+  margin-top: 30px;
+  border-radius:15px ;
+  padding-top:33px ;
+  text-align: center;
+  
+}
+.iconb img{
+  height: 38px;
+  width: 38px;
+}
+
+.iconb:hover ,.icona:hover{
+  transform: translate(0cm,0.5cm);
+  transition:1s;
 }
