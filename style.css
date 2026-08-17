@@ -8,9 +8,10 @@ body,html {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color:#1a0706;
+  background-color: #1a0706;
   overflow-x: hidden;
 }
+
 .header {
   height: 74px;
   width: 100%;
@@ -22,6 +23,7 @@ body,html {
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 
 }
+
 .logo {
   color: white;
   height: 35px;
@@ -29,27 +31,31 @@ body,html {
   font-size: 25px;
   margin-left: 20px;
 }
+
 .folio {
   color: red;
 }
+
 .navbar {
   display: flex;
   margin-left: 400px;
   color: white;
   height: 20px;
-  align-items: center ;
+  align-items: center;
 }
+
 .navbar a {
   color: #d6e0e3e7;
   text-decoration: none;
   padding: 20px;
 }
-.navbar a:hover{
-color:red;
-border:2px solid red;
-border-top:none ;
-border-left:none ;
-border-right:none ;
+
+.navbar a:hover {
+  color: red;
+  border: 2px solid red;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .btn {
@@ -61,6 +67,7 @@ border-right:none ;
   margin-left: 380px;
   border-style: none;
 }
+
 .h2 {
   font-size: 50px;
   color: white;
@@ -78,7 +85,7 @@ border-right:none ;
 
 .h2 {
   color: white;
-  margin-left:350px;
+  margin-left: 350px;
 
   font-size: 36px;
   margin-bottom: 80px;
@@ -101,7 +108,7 @@ border-right:none ;
 
 /* SINGLE CARD */
 
-.carda{
+.carda {
   background: white;
 
   min-height: 275px;
@@ -114,9 +121,11 @@ border-right:none ;
 
   position: relative;
 }
-.carda:hover{
-  transform: translate(0cm,0.3cm);
+
+.carda:hover {
+  transform: translate(0cm, 0.3cm);
   transition: 0.5s;
+  s
 }
 
 
@@ -193,82 +202,92 @@ border-right:none ;
   background: #d90000;
 }
 
-.card2{
-  margin-top:  60px ;
+.card2 {
+  margin-top: 60px;
 }
 
 /* tools  icon conatiner */
 
-.section2{
+.section2 {
   background-color: #111111;
-  height:686px;
+  height: 686px;
   width: 1521px;
 }
-.text p{
-  color:red;
-  word-spacing:5px;
-  
+
+.text p {
+  color: red;
+  word-spacing: 5px;
+
 }
-.text{
-  padding-top:120px;
+
+.text {
+  padding-top: 120px;
   text-align: center;
   font-size: 22px;
 }
-.text h2{
+
+.text h2 {
   color: white;
-  font-size:60px;
+  font-size: 60px;
   margin-top: 30px;
 }
-.icons{
+
+.icons {
   display: flex;
   width: 100%;
   gap: 30px;
   justify-content: center;
-  
-  
+
+
 }
-.icona{
+
+.icona {
   background-color: white;
   height: 130px;
   width: 120px;
   margin-top: 80px;
-  border-radius:15px ;
-  padding-top:33px ;
+  border-radius: 15px;
+  padding-top: 33px;
   text-align: center;
 }
-.icona img{
+
+.icona img {
   height: 38px;
   width: 38px;
 }
-.textbold{
-  font-weight:bolder;
+
+.textbold {
+  font-weight: bolder;
 }
 
-.iconsb{
+.iconsb {
   display: flex;
   width: 100%;
   gap: 30px;
   justify-content: center;
-  padding-bottom:80px;
-  
-  
+  padding-bottom: 80px;
+
+
 }
-.iconb{
+
+.iconb {
   background-color: white;
   height: 130px;
   width: 120px;
   margin-top: 30px;
-  border-radius:15px ;
-  padding-top:33px ;
+  border-radius: 15px;
+  padding-top: 33px;
   text-align: center;
-  
+
 }
-.iconb img{
+
+.iconb img {
   height: 38px;
   width: 38px;
 }
 
-.iconb:hover ,.icona:hover{
-  transform: translate(0cm,0.5cm);
-  transition:1s;
+.iconb:hover,
+.icona:hover {
+  transform: translate(0cm, 0.5cm);
+  transition: 1s;
 }
