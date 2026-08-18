@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body,html {
+body,
+html {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -65,7 +66,6 @@ body,html {
   height: 40px;
   width: 100px;
   margin-left: 380px;
-  border-style: none;
 }
 
 .h2 {
@@ -290,4 +290,58 @@ body,html {
 .icona:hover {
   transform: translate(0cm, 0.5cm);
   transition: 1s;
+}
+
+.mainpage {
+  height: 373px;
+  width: 1445;
+  /* background-color: greenyellow; */
+  margin-top: 138px;
+  margin-left:60px;
+  margin-right: 38px;
+  padding-top: 15px;
+  display: flex;
+
+}
+.mainpage p{
+  font-size: 22px;
+  color: red;
+}
+
+.introcontent h1 {
+  font-size:75px;
+  color: white;
+}
+
+.introcontent {
+  height:250px;
+  width: 773px;
+}
+.intro button{
+    background-color: red;
+  color: white;
+  border-radius:30px;
+  height:60px;
+  width: 150px;
+  margin-left:40px;
+  font-size: 20px;
+  border-style: none;
+}
+.intro button:hover{
+  border:2px solid yellowgreen;
+  color: black;
+}
+.introcontent p{
+padding-top:50px;
+font-size: 25px;
+color: white;
+}
+.intropic img{
+  height:320px ;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.introcontent span{
+  color:red;
+  margin-left: 10px;
 }
