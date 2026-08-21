@@ -22,7 +22,6 @@ html {
   box-shadow:
     rgb(60, 64, 67) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-
 }
 
 .logo {
@@ -125,7 +124,6 @@ html {
 .carda:hover {
   transform: translate(0cm, 0.3cm);
   transition: 0.5s;
-  s
 }
 
 
@@ -291,57 +289,149 @@ html {
   transform: translate(0cm, 0.5cm);
   transition: 1s;
 }
-
+                    /* section1 mainpage */
 .mainpage {
   height: 373px;
   width: 1445;
-  /* background-color: greenyellow; */
   margin-top: 138px;
-  margin-left:60px;
+  margin-left: 60px;
   margin-right: 38px;
   padding-top: 15px;
   display: flex;
 
 }
-.mainpage p{
+
+.mainpage p {
   font-size: 22px;
   color: red;
 }
 
 .introcontent h1 {
-  font-size:75px;
+  font-size: 75px;
   color: white;
 }
 
 .introcontent {
-  height:250px;
+  height: 250px;
   width: 773px;
 }
-.intro button{
-    background-color: red;
+
+.intro button {
+  background-color: red;
   color: white;
-  border-radius:30px;
-  height:60px;
+  border-radius: 30px;
+  height: 60px;
   width: 150px;
-  margin-left:40px;
+  margin-left: 40px;
   font-size: 20px;
   border-style: none;
 }
-.intro button:hover{
-  border:2px solid yellowgreen;
+
+.intro button:hover {
+  border: 2px solid yellowgreen;
   color: black;
 }
-.introcontent p{
-padding-top:50px;
-font-size: 25px;
-color: white;
+
+.introcontent p {
+  padding-top: 50px;
+  font-size: 25px;
+  color: white;
 }
-.intropic img{
-  height:320px ;
+
+.intropic img {
+  height: 320px;
   margin-top: 10px;
   margin-left: 50px;
 }
-.introcontent span{
-  color:red;
-  margin-left: 10px;
+
+.introcontent span {
+  color: red;
+  margin-left: 10px
 }
+
+/* section4  footer*/
+
+footer{
+  height:772PX;
+  width: 1521px;
+  background-color: #111111;
+  padding: 120px;
+  padding-left: 150px;
+}
+footer .container{
+  height: 532px;
+  width: 1100px;
+  display: flex;
+  
+}
+footer .content1{
+  height: 532px;
+  width: 520px;
+}
+footer .content1 h2{
+  font-size: 49px;
+  color: white;
+  }
+  footer .content1 p{
+  font-size:18px;
+  color: white;
+  margin-top: 20px;
+  }
+
+  footer .contact{
+    height: 114px;
+    width: 520px;
+    border-radius: 15px;
+padding:20px;
+margin-top: 10px;
+font-size: 20px;
+display: flex;
+color: white;
+    background-color:#1e1d1d;
+ }
+
+ footer .contact:hover{
+border-left:5px solid red;
+transform: translate(1cm);
+}
+  .contactdiv{
+    margin-top: 30px;
+  }
+
+  footer .content2{
+    height: 532px;
+    width: 520px;
+    padding: 20px;
+    margin-left: 40PX;
+  }
+ 
+  .content2 input{
+    height:46px;
+    width: 520px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left:10px;
+    border-style: none;
+        background-color:#1e1d1d;
+
+
+  
+  }
+  .inputa input{
+    height:120px;
+    width: 520px;
+    padding-bottom:90px;
+    font-size: 20px;
+        background-color:#1e1d1d;
+
+    color: white;
+  }
+  .container button{
+    border-radius:30px;
+height: 41px;
+width: 520px;
+background-color: red;
+color:white;
+margin-top: 20px;
+border-style: none;
+  }
