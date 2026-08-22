@@ -208,48 +208,63 @@ html {
 
 .section2 {
   background-color: #111111;
-  height: 686px;
-  width: 1521px;
+  min-height: 686px;
+  width: 100%;
+  padding: 80px 20px;
+  box-sizing: border-box;
+}
+
+.text {
+  padding-top: 0;
+  text-align: center;
+  font-size: 22px;
 }
 
 .text p {
   color: red;
   word-spacing: 5px;
-
-}
-
-.text {
-  padding-top: 120px;
-  text-align: center;
-  font-size: 22px;
 }
 
 .text h2 {
   color: white;
-  font-size: 60px;
+  font-size: clamp(36px, 5vw, 60px);
   margin-top: 30px;
+  margin-bottom: 0;
 }
 
-.icons {
+.icons,
+.iconsb {
   display: flex;
   width: 100%;
   gap: 30px;
   justify-content: center;
-
-
+  flex-wrap: wrap;
 }
 
-.icona {
+.icons {
+  margin-top: 80px;
+}
+
+.iconsb {
+  margin-top: 30px;
+  padding-bottom: 0;
+}
+
+.icona,
+.iconb {
   background-color: white;
   height: 130px;
   width: 120px;
-  margin-top: 80px;
   border-radius: 15px;
   padding-top: 33px;
   text-align: center;
+  box-sizing: border-box;
+  transition: transform 0.5s ease;
+  flex-shrink: 0;
 }
 
-.icona img {
+.icona img,
+.iconb img {
   height: 38px;
   width: 38px;
 }
@@ -258,37 +273,12 @@ html {
   font-weight: bolder;
 }
 
-.iconsb {
-  display: flex;
-  width: 100%;
-  gap: 30px;
-  justify-content: center;
-  padding-bottom: 80px;
-
-
-}
-
-.iconb {
-  background-color: white;
-  height: 130px;
-  width: 120px;
-  margin-top: 30px;
-  border-radius: 15px;
-  padding-top: 33px;
-  text-align: center;
-
-}
-
-.iconb img {
-  height: 38px;
-  width: 38px;
-}
-
 .iconb:hover,
 .icona:hover {
-  transform: translate(0cm, 0.5cm);
-  transition: 1s;
+  transform: translateY(10px);
 }
+
+
                     /* section1 mainpage */
 .mainpage {
   height: 373px;
@@ -351,34 +341,34 @@ html {
 
 /* section4  footer*/
 
-footer{
+form{
   height:772PX;
   width: 1521px;
   background-color: #111111;
   padding: 120px;
   padding-left: 150px;
 }
-footer .container{
+form .container{
   height: 532px;
   width: 1100px;
   display: flex;
   
 }
-footer .content1{
+form .content1{
   height: 532px;
   width: 520px;
 }
-footer .content1 h2{
+form .content1 h2{
   font-size: 49px;
   color: white;
   }
-  footer .content1 p{
+  form .content1 p{
   font-size:18px;
   color: white;
   margin-top: 20px;
   }
 
-  footer .contact{
+  form .contact{
     height: 114px;
     width: 520px;
     border-radius: 15px;
@@ -390,15 +380,15 @@ color: white;
     background-color:#1e1d1d;
  }
 
- footer .contact:hover{
+ form .contact:hover{
 border-left:5px solid red;
-transform: translate(1cm);
+transform: translate(0.2cm);
 }
   .contactdiv{
     margin-top: 30px;
   }
 
-  footer .content2{
+  form .content2{
     height: 532px;
     width: 520px;
     padding: 20px;
@@ -430,8 +420,65 @@ transform: translate(1cm);
     border-radius:30px;
 height: 41px;
 width: 520px;
-background-color: red;
+background-color: rgb(214, 15, 15);
 color:white;
 margin-top: 20px;
 border-style: none;
   }
+
+  /* footer section 5 */
+  footer{
+    height: 428px;
+    width: 1521px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  footer .fcontent1{
+    color: white;
+   height:226px;
+   width: 300px;
+  margin: 50px 50px;
+padding: 30px;
+  }
+  .fcontent1 h2{
+    font-size: 22px;
+  }
+  .fcontent1 p{
+    margin-top:17px;
+  }
+  .fcontent1 i{
+    margin-top: 20px;
+    margin-left:10px;
+  }
+
+
+
+  footer .fcontent2{
+    color: white;
+   height: 226px;
+   width: 300px;
+  margin: 50px 50px;
+padding: 30px;
+
+  }
+ .link{
+  margin-top:10px;
+  padding-top: 5px;
+
+ }
+ .link a{
+  border-style: none;
+  color:white;
+  
+ }
+   footer .fcontent3{
+    color: white;
+   height: 226px;
+   width: 300px;
+  margin: 50px 50px;
+padding:30px;
+   }
+   .fcontent3 p{
+  margin-top: 15px;
+   }
+ 
